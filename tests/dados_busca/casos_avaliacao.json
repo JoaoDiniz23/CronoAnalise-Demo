@@ -1,0 +1,94 @@
+{
+  "_leia_me": [
+    "Casos FICTÍCIOS para medir a busca sobre a base de demonstração.",
+    "'aceitas' lista pares [atividade, produto] exatamente como estão na base; o script falha se algum par não existir.",
+    "esperado = 'encontrada': o sistema deve chegar a uma das 'aceitas'. esperado = 'nao_encontrada': o correto é 'ambigua' ou 'sem_correspondencia'."
+  ],
+  "casos": [
+    {
+      "texto": "cliente veio sacar dinheiro no caixa",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Saque no caixa",
+          "Numerário (Dinheiro)"
+        ]
+      ]
+    },
+    {
+      "texto": "pagou um boleto no guichê",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Pagamento de boleto no caixa",
+          "Recebimento de Títulos (Boleto)"
+        ]
+      ]
+    },
+    {
+      "texto": "cliente perdeu o cartão e pediu bloqueio",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Bloqueio de cartão por perda ou roubo",
+          "Cartão de Crédito"
+        ]
+      ]
+    },
+    {
+      "texto": "gerente simulou um consignado para aposentado",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Simulação de crédito consignado",
+          "Crédito Consignado"
+        ]
+      ]
+    },
+    {
+      "texto": "funcionário saiu para almoçar",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Intervalo de almoço",
+          "Pausas"
+        ]
+      ]
+    },
+    {
+      "texto": "abasteceu o caixa eletrônico",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Abastecimento de caixa eletrônico",
+          "Numerário (Interno)"
+        ]
+      ]
+    },
+    {
+      "texto": "cliente quer abrir uma conta",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Abertura de conta",
+          "Conta Corrente"
+        ]
+      ]
+    },
+    {
+      "texto": "conversou sobre o jogo de futebol de ontem",
+      "esperado": "nao_encontrada",
+      "aceitas": []
+    },
+    {
+      "texto": "foi tomar um café na copa",
+      "esperado": "encontrada",
+      "aceitas": [
+        [
+          "Tempo não produtivo",
+          "Tempo não Produtivo"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+ "descricao": "Casos FICTÍCIOS de desambiguação (atividades de nome parecido) sobre a base de demonstração. 'grupo' dev = usado para ajustar a solução; reserva = só medido.",
+ "casos": [
+  {
+   "grupo": "dev",
+   "texto": "depositou dinheiro em espécie",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Depósito em dinheiro",
+     "Numerário (Dinheiro)"
+    ]
+   ]
+  },
+  {
+   "grupo": "dev",
+   "texto": "depositou um cheque",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Depósito em cheque",
+     "Cheque"
+    ]
+   ]
+  },
+  {
+   "grupo": "dev",
+   "texto": "sustou um cheque a pedido do cliente",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Sustação de cheque",
+     "Cheque"
+    ]
+   ]
+  },
+  {
+   "grupo": "dev",
+   "texto": "cheque voltou e foi devolvido",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Devolução de cheque",
+     "Cheque"
+    ]
+   ]
+  },
+  {
+   "grupo": "reserva",
+   "texto": "fechou o caixa no fim do dia",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Fechamento de caixa",
+     "Numerário (Interno)"
+    ]
+   ]
+  },
+  {
+   "grupo": "reserva",
+   "texto": "cliente quer cancelar o cartão",
+   "esperado": "encontrada",
+   "aceitas": [
+    [
+     "Cancelamento de cartão",
+     "Cartão de Crédito"
+    ]
+   ]
+  }
+ ]
+}

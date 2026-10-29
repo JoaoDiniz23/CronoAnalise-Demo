@@ -1,0 +1,52 @@
+# Segredos -- nunca podem entrar no contexto de build nem na imagem.
+.env
+.env.exemplo
+env.txt
+*.env
+
+# Ambiente virtual e cache Python (o Dockerfile instala as dependencias
+# do zero via requirements.txt -- reusar o venv local nao faz sentido e
+# ainda arrastaria binarios compilados para a plataforma errada).
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Git e ferramentas de sessao/editor.
+.git/
+.gitignore
+.claude/
+Claude outputs/
+
+# Node (o frontend e HTML/CSS/JS puro; nao ha build nem node_modules hoje,
+# mas o padrao existe por simetria com o .gitignore).
+node_modules/
+
+# Dados sensiveis de folhas reais (nome/matricula de funcionario do
+# cliente) -- mesmos padroes do .gitignore, pela mesma razao: alguns
+# ja apareceram soltos na raiz do projeto durante o desenvolvimento e
+# NAO podem ir para dentro da imagem.
+/imagens_teste/
+/calibracao_debug/
+/folhas_reais/
+/calibracao/
+/fotos para testes/
+/PDF_Fotos_Teste/
+/conteúdos importantes/
+
+# Codigo e arquivos de desenvolvimento/teste -- nao usados em runtime
+# pelo backend (confirmado: nenhum modulo em backend/ importa de
+# scripts/ ou tests/). Ficam fora para manter a imagem pequena e para
+# nao expor PDFs sinteticos/scripts de calibracao desnecessariamente.
+tests/
+scripts/
+docs/
+README.md
+CLAUDE.md
+package.json
+
+# Artefatos locais/temporarios.
+*.log
+.DS_Store
+Thumbs.db

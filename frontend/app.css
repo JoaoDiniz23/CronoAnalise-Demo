@@ -1,0 +1,591 @@
+/* Interface mobile-first do cronometro. Prioridade: legibilidade a
+   distancia de braco, botoes grandes, e LAP sempre o alvo mais obvio.
+   Nao ha botao Pausar (22/09): o tempo corre do inicio ao fim. */
+
+/* Tema navy — trocado do branco original a pedido do usuario (22/09/2026),
+   inspirado na paleta do prototipo cliente (Chatbot.html: --bg #0f172a,
+   --panel #1e293b, --user #2563eb, --accent #38bdf8). Os NOMES das
+   variaveis ficam os mesmos por compatibilidade com o resto do arquivo,
+   mas note que --branco e --cinza-claro agora guardam tons escuros (sao a
+   cor de "superficie"/"borda" do tema, nao branco/cinza-claro literais).
+   --texto-claro e novo: cobre os poucos lugares que precisam de texto
+   branco fixo sobre fundo colorido (header, botoes cheios), que nao devem
+   escurecer junto com --branco. */
+:root {
+  --vermelho: #ec0000;
+  --cinza-escuro: #e2e8f0;
+  --cinza-medio: #94a3b8;
+  --cinza-claro: #334155;
+  --fundo: #0f172a;
+  --branco: #1e293b;
+  --texto-claro: #ffffff;
+  --azul-lap: #2563eb;
+  --acento: #38bdf8;
+  --verde-ok: #4ade80;
+  --laranja-confirmar: #fbbf24;
+  --altura-nav: 60px;
+}
+
+* { box-sizing: border-box; }
+
+/* Os elementos abaixo declaram display (flex/grid), o que sobrescreveria o
+   `display: none` que o navegador aplica ao atributo `hidden`. Sem isto,
+   tudo que a UI esconde via `hidden` continua visivel na tela. */
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--cinza-escuro);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Evita o "puxar para atualizar" derrubar a medicao sem querer. */
+  overscroll-behavior-y: contain;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+           env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+header {
+  background: var(--vermelho);
+  color: var(--texto-claro);
+  padding: 14px 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+main {
+  padding: 20px 16px calc(var(--altura-nav) + 24px);
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.view-titulo {
+  margin: 4px 0 16px;
+  font-size: 20px;
+}
+
+.tempo {
+  font-size: clamp(56px, 18vw, 88px);
+  font-weight: 700;
+  text-align: center;
+  /* Digitos de largura fixa: o numero nao "dança" enquanto corre. */
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+  line-height: 1.1;
+  margin: 12px 0 4px;
+}
+
+.situacao {
+  text-align: center;
+  color: var(--cinza-medio);
+  font-size: 15px;
+  margin-bottom: 24px;
+  min-height: 20px;
+}
+
+/* Cor de "ponto para revisar", nao de erro grave -- a mensagem e "recomecamos do zero", nao uma
+   falha de rede. */
+.aviso-recuperacao {
+  text-align: center;
+  color: var(--laranja-confirmar);
+  font-size: 13px;
+  margin: -12px 0 20px;
+}
+
+.aviso-fechar {
+  display: block;
+  margin: 6px auto 0;
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  color: inherit;
+  font-size: 13px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.controles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  width: 100%;
+  min-height: 64px;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--texto-claro);
+  cursor: pointer;
+  /* Sem zoom por duplo toque e sem selecionar texto ao segurar o botao. */
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Feedback de toque: `:active` (enquanto o dedo esta no botao) + a classe
+   `tocado`, posta por app.js no pointerdown, que garante um pulso visivel
+   mesmo num toque rapido demais para o `:active` aparecer. */
+.btn { transition: transform 80ms ease, filter 80ms ease; }
+.btn:active { filter: brightness(0.8); transform: scale(0.96); }
+.btn.tocado { animation: pulso-toque 260ms ease-out; }
+
+@keyframes pulso-toque {
+  0%   { transform: scale(0.92); filter: brightness(1.7);
+         box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.35); }
+  100% { transform: scale(1);    filter: brightness(1);
+         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+/* "Lap N registrado" por 0,5 s + destaque da linha nova. */
+.lap-aviso {
+  text-align: center;
+  color: var(--verde-ok);
+  font-weight: 600;
+  font-size: 15px;
+  margin: -16px 0 8px;
+}
+
+.laps-lista li.lap-novo { animation: destaque-lap 700ms ease-out; }
+
+@keyframes destaque-lap {
+  0%   { background: var(--azul-lap); }
+  100% { background: var(--branco); }
+}
+
+.btn-primario { background: var(--vermelho); }
+
+/* LAP e o botao mais apertado durante a medicao: e o maior, tem cor
+   propria (azul, nada a ver com o vermelho de acao/perigo) e fica no alto
+   do bloco de controles, na zona confortavel do polegar. */
+.btn-lap {
+  background: var(--azul-lap);
+  min-height: 96px;
+  font-size: 26px;
+}
+
+/* Secundario (ex.: Cancelar): contorno em vez de preenchimento. */
+.btn-secundario {
+  background: var(--branco);
+  color: var(--cinza-escuro);
+  border: 2px solid var(--cinza-claro);
+  min-height: 56px;
+  font-size: 18px;
+}
+
+/* FINALIZAR fica por ultimo, fora da zona de toque natural, e pede
+   confirmacao (o tempo vai para o historico). */
+.btn-perigo {
+  background: var(--branco);
+  color: var(--vermelho);
+  border: 2px solid var(--vermelho);
+  min-height: 52px;
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.laps { margin-top: 28px; }
+
+/* Laps da rodada já finalizada (ficam 20 min): diz de qual rodada são. */
+.laps-legenda {
+  margin: 0 0 6px;
+  padding: 0 12px;
+  font-size: 13px;
+  color: var(--cinza-medio);
+}
+
+.laps-cabecalho,
+.laps-lista li {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1.3fr;
+  gap: 8px;
+  padding: 10px 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.laps-cabecalho {
+  color: var(--cinza-medio);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--cinza-claro);
+}
+
+.laps-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.laps-lista li {
+  background: var(--branco);
+  border-bottom: 1px solid var(--cinza-claro);
+  font-size: 17px;
+}
+
+/* O intervalo entre laps e a medicao de cada atividade observada - e o
+   numero que interessa numa cronoanalise, entao vem em destaque. */
+.laps-lista .intervalo { font-weight: 700; }
+.laps-lista .total { color: var(--cinza-medio); }
+
+/* ============================== histórico =================================
+   Rodadas finalizadas (confirmação de "Zerar tudo") mais a rodada corrente,
+   para que finalizar por engano nunca dê a impressão de ter perdido o
+   tempo já medido. Só aparece na tela principal do cronômetro (ver
+   `.compacto .historico { display:none }` acima). */
+
+.historico { margin-top: 28px; }
+
+.historico-titulo {
+  font-size: 15px;
+  color: var(--cinza-medio);
+  margin: 0 0 8px;
+}
+
+.historico-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.historico-item {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 12px;
+  background: var(--branco);
+  border-bottom: 1px solid var(--cinza-claro);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.historico-tempo { font-weight: 700; text-align: center; }
+
+.historico-situacao {
+  text-align: right;
+  font-size: 13px;
+  color: var(--cinza-medio);
+}
+
+.historico-item-finalizada .historico-situacao {
+  color: var(--verde-ok);
+}
+
+/* Modulo de busca de atividades (Fase 1C): as classes abaixo estilizam o
+   card de atividade oficial, reaproveitado tanto pelo resultado original
+   quanto pelas bolhas do chat (ver chat-app.js). Prioridade e clareza dos
+   dados oficiais retornados, nao aparencia - ver CLAUDE.md. */
+.busca-resultado-titulo {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.busca-mensagem {
+  margin: 0 0 16px;
+  color: var(--cinza-medio);
+  font-size: 14px;
+}
+
+.busca-erro {
+  margin: 0;
+  color: var(--vermelho);
+  font-size: 14px;
+}
+
+/* Sessão vencida: botão para voltar ao login (chat-app.js). */
+.busca-link-login {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: var(--vermelho);
+  color: var(--texto-claro);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.busca-lista h4 {
+  font-size: 14px;
+  color: var(--cinza-medio);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 16px 0 8px;
+}
+
+.card-atividade {
+  background: var(--branco);
+  border: 1px solid var(--cinza-claro);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.card-atividade-rotulo {
+  display: inline-block;
+  background: var(--azul-lap);
+  color: var(--texto-claro);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.card-atividade-linha {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 3px 0;
+  font-size: 14px;
+}
+
+.card-atividade-rotulo-campo {
+  color: var(--cinza-medio);
+  flex-shrink: 0;
+}
+
+.card-atividade-valor {
+  text-align: right;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  /* acima da barra de navegação (z-index 20), senão ela cobre os botões */
+  z-index: 30;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.sheet {
+  background: var(--branco);
+  width: 100%;
+  max-width: 560px;
+  border-radius: 16px;
+  padding: 24px 20px;
+}
+
+.sheet h2 { margin: 0 0 8px; font-size: 20px; }
+.sheet p { margin: 0 0 20px; color: var(--cinza-medio); font-size: 15px; }
+.sheet-botoes { display: flex; flex-direction: column; gap: 10px; }
+
+/* ============================== navegação ================================
+   Barra inferior fixa, sempre visível, e a barra compacta do cronômetro
+   e o mini-cronômetro no topo, na tela do chat (ver nav.js). z-index maior que qualquer conteúdo de
+   tela; `main` já reserva `--altura-nav` de espaço no
+   fim para nada ficar escondido atrás das duas. */
+
+.nav-inferior {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  display: flex;
+  background: var(--branco);
+  border-top: 1px solid var(--cinza-claro);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.nav-item {
+  min-height: var(--altura-nav);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border: none;
+  background: none;
+  color: var(--cinza-medio);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-item.ativo {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.nav-icone {
+  font-size: 22px;
+  line-height: 1;
+}
+
+/* Cronômetro e Chat dividem a barra igualmente. */
+.nav-item-principal {
+  flex: 1;
+}
+
+/* ===================== mini-cronômetro (tela do chat) ====================
+   Aplicado ao MESMO nó `#view-cronometro` (nav.js só o move de contêiner),
+   nunca a uma cópia — é o que garante que o estado da medição não se perde
+   ao navegar. Fica fixo no canto superior direito: tempo pequeno + LAP
+   grande. Finalizar, laps e histórico só na tela do cronômetro. */
+
+#slot-cronometro-compacto {
+  position: fixed;
+  top: calc(env(safe-area-inset-top) + 6px);
+  right: calc(env(safe-area-inset-right) + 8px);
+  z-index: 19;
+  background: var(--branco);
+  border: 1px solid var(--cinza-claro);
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+#view-cronometro.compacto {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+}
+
+#view-cronometro.compacto .situacao,
+#view-cronometro.compacto .aviso-recuperacao,
+#view-cronometro.compacto .lap-aviso,
+#view-cronometro.compacto .laps,
+#view-cronometro.compacto .historico,
+#view-cronometro.compacto #btn-resetar {
+  display: none !important;
+}
+
+#view-cronometro.compacto .tempo {
+  font-size: 20px;
+  margin: 0 2px 0 6px;
+}
+
+#view-cronometro.compacto .controles {
+  flex-direction: row;
+  gap: 6px;
+}
+
+#view-cronometro.compacto .btn {
+  width: auto;
+  min-height: 52px;
+  padding: 0 14px;
+  font-size: 17px;
+  margin: 0;
+}
+
+#view-cronometro.compacto .btn-lap {
+  min-width: 104px;
+  min-height: 58px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+/* Espaço para o título do chat não ficar sob o mini-cronômetro. */
+#view-chat .view-titulo { padding-right: 216px; min-height: 58px; }
+
+/* ================================== chat ==================================
+   Formulário em fluxo normal (não fixo), de propósito: evita os problemas
+   clássicos de posição fixa + teclado virtual no celular. */
+
+.chat-historico {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.chat-bolha {
+  max-width: 88%;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-size: 15px;
+}
+
+.chat-bolha-usuario {
+  align-self: flex-end;
+  background: var(--azul-lap);
+  color: var(--texto-claro);
+}
+
+.chat-bolha-assistente {
+  background: var(--branco);
+  border: 1px solid var(--cinza-claro);
+}
+
+.chat-bolha-espera {
+  color: var(--cinza-medio);
+  font-style: italic;
+}
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.chat-campo {
+  flex: 1;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 2px solid var(--cinza-claro);
+  border-radius: 10px;
+  font: inherit;
+  resize: none;
+}
+
+.chat-form .btn {
+  width: auto;
+  min-height: 48px;
+  padding: 0 20px;
+}
+
+/* Lista longa do chat: uma linha por atividade, toque abre o card. */
+.card-compacto {
+  border: 1px solid var(--cinza-claro);
+  border-radius: 10px;
+  margin: 6px 0;
+  background: var(--branco);
+}
+.card-compacto summary {
+  padding: 12px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card-compacto[open] summary {
+  border-bottom: 1px solid var(--cinza-claro);
+}
+.card-compacto .card-atividade {
+  margin: 0;
+  border: 0;
+}
+
+/* Lap e hora em que a pergunta foi enviada: rodapé discreto da resposta. */
+.chat-momento {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--cinza-medio);
+  text-align: right;
+}
+
+/* Cota diária de buscas inteligentes: em branco, destacada do texto cinza
+   acima, em toda busca que usou o LLM; laranja na última do dia. */
+.busca-cota,
+.busca-aviso-cota {
+  margin: 10px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--texto-claro);
+}
+
+.busca-aviso-cota {
+  color: var(--laranja-confirmar);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#ec0000">
+  <title>Cronoanálise</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- ?v=: troque a versão a cada deploy de frontend (também nos imports de app.js/chat-app.js e VERSAO em sw.js) para o celular baixar os arquivos novos. -->
+  <link rel="stylesheet" href="app.css?v=20260929c">
+</head>
+<body>
+  <header>
+    <h1>Cronoanálise</h1>
+  </header>
+
+  <main id="conteudo">
+    <div id="slot-cronometro-principal">
+      <!-- Sempre montado, nunca recriado: nav.js so move este bloco entre
+           aqui e a barra compacta no rodape (ver nav.js). O estado do
+           cronometro (localStorage + loop de desenho em app.js) nunca e
+           reinicializado ao trocar de tela. -->
+      <section id="view-cronometro">
+        <div id="tempo" class="tempo" role="timer" aria-live="off">00:00</div>
+        <div id="situacao" class="situacao">Pronto para iniciar</div>
+        <p id="aviso-recuperacao" class="aviso-recuperacao" hidden>
+          Não foi possível recuperar a medição salva anteriormente — começando do zero.
+          <button id="btn-fechar-aviso" type="button" class="aviso-fechar">Entendi</button>
+        </p>
+
+        <div id="lap-aviso" class="lap-aviso" role="status" aria-live="polite" hidden></div>
+
+        <div class="controles">
+          <button id="btn-iniciar" class="btn btn-primario">Iniciar</button>
+          <button id="btn-lap" class="btn btn-lap" hidden>Lap</button>
+          <!-- Sem botao Pausar (decisao 22/09): o tempo corre do inicio ao fim,
+               almoco etc. vira TNP. -->
+          <button id="btn-resetar" class="btn btn-perigo" hidden>Finalizar</button>
+        </div>
+
+        <section class="laps" aria-label="Laps registrados">
+          <p id="laps-legenda" class="laps-legenda" hidden></p>
+          <div id="laps-cabecalho" class="laps-cabecalho" hidden>
+            <span>Lap</span><span>Intervalo</span><span>Total</span>
+          </div>
+          <ol id="laps-lista" class="laps-lista"></ol>
+        </section>
+
+        <section id="historico" class="historico" aria-label="Histórico de medições" hidden>
+          <h2 class="historico-titulo">Histórico de medições</h2>
+          <ol id="historico-lista" class="historico-lista"></ol>
+        </section>
+      </section>
+    </div>
+
+    <section id="view-chat" class="view" hidden aria-label="Chat de busca de atividades">
+      <h2 class="view-titulo">Busca de atividades</h2>
+      <div id="chat-historico" class="chat-historico" aria-live="polite"></div>
+      <form id="form-chat" class="chat-form">
+        <textarea
+          id="chat-texto"
+          class="chat-campo"
+          rows="2"
+          maxlength="1000"
+          placeholder="Descreva a atividade observada…"
+          required
+        ></textarea>
+        <button id="btn-chat-enviar" type="submit" class="btn btn-primario">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <div id="slot-cronometro-compacto" hidden></div>
+
+  <nav class="nav-inferior" aria-label="Navegação principal">
+    <button id="nav-cronometro" class="nav-item nav-item-principal ativo" type="button" data-view="cronometro" aria-current="page">
+      <span class="nav-icone" aria-hidden="true">⏱</span><span class="nav-rotulo">Cronômetro</span>
+    </button>
+    <button id="nav-chat" class="nav-item nav-item-principal" type="button" data-view="chat">
+      <span class="nav-icone" aria-hidden="true">💬</span><span class="nav-rotulo">Chat</span>
+    </button>
+  </nav>
+
+  <!-- Confirmação de finalizar (o tempo vai para o histórico): um sheet no próprio app, não o confirm() nativo
+       (que é bloqueante e destoa no celular). -->
+  <div id="confirmacao" class="overlay" hidden>
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="confirmacao-titulo">
+      <h2 id="confirmacao-titulo">Finalizar a medição?</h2>
+      <p id="confirmacao-detalhe"></p>
+      <div class="sheet-botoes">
+        <button id="btn-cancelar-reset" class="btn btn-secundario">Cancelar</button>
+        <button id="btn-confirmar-reset" class="btn btn-perigo">Finalizar</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js?v=20260929c"></script>
+  <script type="module" src="chat-app.js?v=20260929c"></script>
+  <script type="module" src="nav.js?v=20260929c"></script>
+</body>
+</html>

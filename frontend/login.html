@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acesso — Cronoanálise (demo)</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f172a;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 16px;
+  }
+  form {
+    background: #1e293b;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    padding: 32px 24px;
+    width: 100%;
+    max-width: 360px;
+  }
+  h1 { font-size: 1.25rem; margin: 0 0 4px; color: #e2e8f0; }
+  p.sub { margin: 0 0 24px; color: #94a3b8; font-size: 0.9rem; }
+  label { display: block; font-size: 0.85rem; margin: 16px 0 6px; color: #94a3b8; }
+  input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-size: 1rem;
+  }
+  button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ec0000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 48px;
+  }
+  .erro {
+    margin: 0 0 16px;
+    padding: 10px 12px;
+    background: #451a17;
+    color: #fecaca;
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <form method="post" action="/login" autocomplete="off">
+    <h1>Cronoanálise (demo)</h1>
+    <p class="sub">Acesso restrito à equipe de coleta.</p>
+    <!--ERRO-->
+    <!--CAMPOS-->
+    <label for="nome">Seu nome</label>
+    <input type="text" id="nome" name="nome" required autofocus>
+    <label for="senha">Senha de acesso</label>
+    <input type="password" id="senha" name="senha" required>
+    <!--/CAMPOS-->
+    <button type="submit">Entrar</button>
+  </form>
+</body>
+</html>

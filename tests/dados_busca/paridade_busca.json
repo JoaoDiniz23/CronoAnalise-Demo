@@ -1,0 +1,4960 @@
+[
+ {
+  "texto": "saque",
+  "corrigido": "saque",
+  "radicais": [
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [
+   31,
+   32,
+   33,
+   34
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Saque",
+  "corrigido": "saque",
+  "radicais": [
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [
+   31,
+   32,
+   33,
+   34
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "SAQUE",
+  "corrigido": "saque",
+  "radicais": [
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [
+   31,
+   32,
+   33,
+   34
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "pix",
+  "corrigido": "pix",
+  "radicais": [
+   "pix"
+  ],
+  "exata": null,
+  "por_nome": [
+   105,
+   133
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 105,
+    "pontuacao": 8.0507,
+    "termos": [
+     "pix"
+    ]
+   },
+   {
+    "id": 133,
+    "pontuacao": 8.0507,
+    "termos": [
+     "pix"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "depósito",
+  "corrigido": "deposito",
+  "radicais": [
+   "deposito"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 97,
+    "pontuacao": 8.0507,
+    "termos": [
+     "deposito"
+    ]
+   },
+   {
+    "id": 98,
+    "pontuacao": 8.0507,
+    "termos": [
+     "deposito"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "câmbio",
+  "corrigido": "cambio",
+  "radicais": [
+   "cambio"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "TED",
+  "corrigido": "ted",
+  "radicais": [
+   "ted"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 104,
+    "pontuacao": 9.0724,
+    "termos": [
+     "ted"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "treinamento",
+  "corrigido": "treinamento",
+  "radicais": [
+   "trein"
+  ],
+  "exata": null,
+  "por_nome": [
+   120
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 120,
+    "pontuacao": 9.0724,
+    "termos": [
+     "treinamento"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Acompanhamento de metas",
+  "corrigido": "acompanhamento de metas",
+  "radicais": [
+   "acompanh",
+   "meta"
+  ],
+  "exata": null,
+  "por_nome": [
+   1
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 1,
+    "pontuacao": 18.1447,
+    "termos": [
+     "acompanhamento",
+     "metas"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "contagem de numerario",
+  "corrigido": "contagem de numerario",
+  "radicais": [
+   "contagem",
+   "numerario"
+  ],
+  "exata": null,
+  "por_nome": [
+   28
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 28,
+    "pontuacao": 9.1724,
+    "termos": [
+     "contagem",
+     "numerario"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 112,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 113,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 114,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerario"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 3.5693,
+    "termos": [
+     "contagem"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 3.5693,
+    "termos": [
+     "contagem"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Contagem de numerários",
+  "corrigido": "contagem de numerarios",
+  "radicais": [
+   "contagem",
+   "numerario"
+  ],
+  "exata": null,
+  "por_nome": [
+   28
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 28,
+    "pontuacao": 9.1724,
+    "termos": [
+     "contagem",
+     "numerarios"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 112,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 113,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 114,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 3.5693,
+    "termos": [
+     "contagem"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 3.5693,
+    "termos": [
+     "contagem"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Gestão de equipe",
+  "corrigido": "gestao de equipe",
+  "radicais": [
+   "gestao",
+   "equipe"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 124,
+    "pontuacao": 12.5583,
+    "termos": [
+     "gestao",
+     "equipe"
+    ]
+   },
+   {
+    "id": 123,
+    "pontuacao": 8.8694,
+    "termos": [
+     "gestao",
+     "equipe"
+    ]
+   },
+   {
+    "id": 119,
+    "pontuacao": 7.3778,
+    "termos": [
+     "equipe"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.1805,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 5.1805,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 5.1805,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 2.5903,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 2.5903,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 115,
+    "pontuacao": 2.5903,
+    "termos": [
+     "gestao"
+    ]
+   },
+   {
+    "id": 116,
+    "pontuacao": 2.5903,
+    "termos": [
+     "gestao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Oferta/Abertura",
+  "corrigido": "oferta abertura",
+  "radicais": [
+   "oferta",
+   "abertura"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 4,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 14,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 24,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 37,
+    "pontuacao": 5.8535,
+    "termos": [
+     "oferta"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Tempo não produtivo",
+  "corrigido": "tempo nao produtivo",
+  "radicais": [
+   "tempo",
+   "nao",
+   "produtivo"
+  ],
+  "exata": null,
+  "por_nome": [
+   35,
+   36
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 35,
+    "pontuacao": 20.6254,
+    "termos": [
+     "tempo",
+     "nao",
+     "produtivo"
+    ]
+   },
+   {
+    "id": 36,
+    "pontuacao": 20.6254,
+    "termos": [
+     "tempo",
+     "nao",
+     "produtivo"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 10.3127,
+    "termos": [
+     "tempo",
+     "nao",
+     "produtivo"
+    ]
+   },
+   {
+    "id": 126,
+    "pontuacao": 10.3127,
+    "termos": [
+     "tempo",
+     "nao",
+     "produtivo"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Pagamento de parcela Acordo (Dívida)",
+  "corrigido": "pagamento de parcela acordo divida",
+  "radicais": [
+   "pag",
+   "parcela",
+   "acordo",
+   "div"
+  ],
+  "exata": 2,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 2,
+    "pontuacao": 22.6631,
+    "termos": [
+     "pagamento",
+     "parcela",
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 95,
+    "pontuacao": 22.6631,
+    "termos": [
+     "pagamento",
+     "parcela",
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 94,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 96,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 39,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 7.1253,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 52,
+    "pontuacao": 5.1805,
+    "termos": [
+     "parcela"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Pagamento de parcela - Acordo (Dívida)",
+  "corrigido": "pagamento de parcela acordo divida",
+  "radicais": [
+   "pag",
+   "parcela",
+   "acordo",
+   "div"
+  ],
+  "exata": 2,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 2,
+    "pontuacao": 22.6631,
+    "termos": [
+     "pagamento",
+     "parcela",
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 95,
+    "pontuacao": 22.6631,
+    "termos": [
+     "pagamento",
+     "parcela",
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 94,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 96,
+    "pontuacao": 12.9476,
+    "termos": [
+     "acordo",
+     "divida"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 39,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 7.1253,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 52,
+    "pontuacao": 5.1805,
+    "termos": [
+     "parcela"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Pagamento de parcela",
+  "corrigido": "pagamento de parcela",
+  "radicais": [
+   "pag",
+   "parcela"
+  ],
+  "exata": null,
+  "por_nome": [
+   2,
+   20,
+   23,
+   39
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 2,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 39,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 95,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 7.1253,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 52,
+    "pontuacao": 5.1805,
+    "termos": [
+     "parcela"
+    ]
+   },
+   {
+    "id": 18,
+    "pontuacao": 4.8578,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 4.8578,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 4.8578,
+    "termos": [
+     "pagamento",
+     "parcela"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Dúvida/Ajuda e Suporte (cliente)",
+  "corrigido": "duvida ajuda e suporte cliente",
+  "radicais": [
+   "duv",
+   "ajuda",
+   "suporte",
+   "cliente"
+  ],
+  "exata": null,
+  "por_nome": [
+   3,
+   5,
+   10,
+   13,
+   16,
+   19,
+   21,
+   22,
+   25,
+   29,
+   34,
+   38,
+   127,
+   128,
+   129,
+   130,
+   131,
+   132,
+   133,
+   134,
+   135,
+   136,
+   137,
+   138
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 3,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 19,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 21,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 22,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 25,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   },
+   {
+    "id": 29,
+    "pontuacao": 13.5558,
+    "termos": [
+     "duvida",
+     "ajuda",
+     "suporte",
+     "cliente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cartão de crédito",
+  "corrigido": "cartao de credito",
+  "radicais": [
+   "cartao",
+   "credito"
+  ],
+  "exata": null,
+  "por_nome": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 6,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 8,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 47,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 48,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 49,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 51,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Numerários (dinheiro)",
+  "corrigido": "numerarios dinheiro",
+  "radicais": [
+   "numerario",
+   "dinheiro"
+  ],
+  "exata": null,
+  "por_nome": [
+   27,
+   28,
+   97,
+   99,
+   100
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 27,
+    "pontuacao": 12.0769,
+    "termos": [
+     "numerarios",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 12.0769,
+    "termos": [
+     "numerarios",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 12.0769,
+    "termos": [
+     "numerarios",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 12.0769,
+    "termos": [
+     "numerarios",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 12.0769,
+    "termos": [
+     "numerarios",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 112,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 113,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 114,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Emissão de 2ª via de cartão",
+  "corrigido": "emissao de 2 via de cartao",
+  "radicais": [
+   "emissao",
+   "2",
+   "via",
+   "cartao"
+  ],
+  "exata": null,
+  "por_nome": [
+   8,
+   12
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 8,
+    "pontuacao": 23.9816,
+    "termos": [
+     "emissao",
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 23.9816,
+    "termos": [
+     "emissao",
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 17.5078,
+    "termos": [
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 44,
+    "pontuacao": 6.4738,
+    "termos": [
+     "emissao"
+    ]
+   },
+   {
+    "id": 93,
+    "pontuacao": 6.4738,
+    "termos": [
+     "emissao"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 109,
+    "pontuacao": 6.4738,
+    "termos": [
+     "emissao"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "segunda via do cartão",
+  "corrigido": "2 via do cartao",
+  "radicais": [
+   "2",
+   "via",
+   "cartao"
+  ],
+  "exata": null,
+  "por_nome": [
+   50
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 8,
+    "pontuacao": 17.5078,
+    "termos": [
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 17.5078,
+    "termos": [
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 17.5078,
+    "termos": [
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 11,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "segunda via do cartão de crédito",
+  "corrigido": "2 via do cartao de credito",
+  "radicais": [
+   "2",
+   "via",
+   "cartao",
+   "credito"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 8,
+    "pontuacao": 20.1965,
+    "termos": [
+     "2",
+     "via",
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 20.1965,
+    "termos": [
+     "2",
+     "via",
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 17.5078,
+    "termos": [
+     "2",
+     "via",
+     "cartao"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 6.4738,
+    "termos": [
+     "via"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 47,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "2a via de fatura",
+  "corrigido": "2 via de fatura",
+  "radicais": [
+   "2",
+   "via",
+   "fatura"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 8,
+    "pontuacao": 13.8515,
+    "termos": [
+     "2",
+     "via"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 13.8515,
+    "termos": [
+     "2",
+     "via"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 13.8515,
+    "termos": [
+     "2",
+     "via"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 9.0641,
+    "termos": [
+     "via",
+     "fatura"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 9.0641,
+    "termos": [
+     "via",
+     "fatura"
+    ]
+   },
+   {
+    "id": 52,
+    "pontuacao": 5.1805,
+    "termos": [
+     "fatura"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 5.1805,
+    "termos": [
+     "fatura"
+    ]
+   },
+   {
+    "id": 2,
+    "pontuacao": 2.5903,
+    "termos": [
+     "fatura"
+    ]
+   },
+   {
+    "id": 18,
+    "pontuacao": 2.5903,
+    "termos": [
+     "fatura"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 2.5903,
+    "termos": [
+     "fatura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "não foi saque",
+  "corrigido": "nao foi saque",
+  "radicais": [
+   "nao",
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 35,
+    "pontuacao": 6.8751,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 36,
+    "pontuacao": 6.8751,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 3.4376,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 126,
+    "pontuacao": 3.4376,
+    "termos": [
+     "nao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente sacou dinheiro no caixa",
+  "corrigido": "cliente saque dinheiro no caixa",
+  "radicais": [
+   "cliente",
+   "saque",
+   "dinheiro",
+   "caixa"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 99,
+    "pontuacao": 18.7531,
+    "termos": [
+     "saque",
+     "dinheiro",
+     "caixa"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 12.6135,
+    "termos": [
+     "dinheiro",
+     "caixa"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 12.6135,
+    "termos": [
+     "saque",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 9.3946,
+    "termos": [
+     "cliente",
+     "saque"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 101,
+    "pontuacao": 6.1397,
+    "termos": [
+     "caixa"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente sacou dinheiro usando o cartão no caixa",
+  "corrigido": "cliente saque dinheiro usando o cartao no caixa",
+  "radicais": [
+   "cliente",
+   "saque",
+   "dinheiro",
+   "usando",
+   "cartao",
+   "caixa"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 99,
+    "pontuacao": 18.7531,
+    "termos": [
+     "saque",
+     "dinheiro",
+     "caixa"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 12.6135,
+    "termos": [
+     "dinheiro",
+     "caixa"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 12.6135,
+    "termos": [
+     "saque",
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 9.7959,
+    "termos": [
+     "saque",
+     "cartao"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 9.7959,
+    "termos": [
+     "cartao",
+     "caixa"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 9.3946,
+    "termos": [
+     "cliente",
+     "saque"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.9112,
+    "termos": [
+     "cliente",
+     "cartao"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 6.9112,
+    "termos": [
+     "cliente",
+     "cartao"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Atendeu o cliente para tirar dúvida sobre empréstimo consignado.",
+  "corrigido": "atendeu o cliente para tirar duvida sobre emprestimo consignado",
+  "radicais": [
+   "atend",
+   "cliente",
+   "tir",
+   "duv",
+   "emprestimo",
+   "consign"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 21,
+    "pontuacao": 12.344,
+    "termos": [
+     "cliente",
+     "duvida",
+     "consignado"
+    ]
+   },
+   {
+    "id": 22,
+    "pontuacao": 12.344,
+    "termos": [
+     "cliente",
+     "duvida",
+     "consignado"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 11.1425,
+    "termos": [
+     "cliente",
+     "duvida",
+     "emprestimo"
+    ]
+   },
+   {
+    "id": 25,
+    "pontuacao": 11.1425,
+    "termos": [
+     "cliente",
+     "duvida",
+     "emprestimo"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 9.0724,
+    "termos": [
+     "atendeu"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 6.7409,
+    "termos": [
+     "cliente",
+     "duvida"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.7409,
+    "termos": [
+     "cliente",
+     "duvida"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 6.7409,
+    "termos": [
+     "cliente",
+     "duvida"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 6.7409,
+    "termos": [
+     "cliente",
+     "duvida"
+    ]
+   },
+   {
+    "id": 19,
+    "pontuacao": 6.7409,
+    "termos": [
+     "cliente",
+     "duvida"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "dúvida sobre consignado",
+  "corrigido": "duvida sobre consignado",
+  "radicais": [
+   "duv",
+   "consign"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 21,
+    "pontuacao": 9.0891,
+    "termos": [
+     "duvida",
+     "consignado"
+    ]
+   },
+   {
+    "id": 22,
+    "pontuacao": 9.0891,
+    "termos": [
+     "duvida",
+     "consignado"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 60,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 61,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 62,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 63,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 64,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 3.4859,
+    "termos": [
+     "duvida"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 3.4859,
+    "termos": [
+     "duvida"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente consignado",
+  "corrigido": "cliente consignado",
+  "radicais": [
+   "cliente",
+   "consign"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 21,
+    "pontuacao": 8.8581,
+    "termos": [
+     "cliente",
+     "consignado"
+    ]
+   },
+   {
+    "id": 22,
+    "pontuacao": 8.8581,
+    "termos": [
+     "cliente",
+     "consignado"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 60,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 61,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 62,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 63,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 64,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "portabilidade de salário",
+  "corrigido": "portabilidade de salario",
+  "radicais": [
+   "portabilidade",
+   "salario"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 58,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 63,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 68,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 73,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 78,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 83,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente trouxe a portabilidade do salário para o cliente",
+  "corrigido": "cliente trouxe a portabilidade do salario para o cliente",
+  "radicais": [
+   "cliente",
+   "trouxe",
+   "portabilidade",
+   "salario"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 58,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 63,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 68,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 73,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 78,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 83,
+    "pontuacao": 6.1397,
+    "termos": [
+     "portabilidade"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cadastrou a senha nova do cartão de débito do cliente",
+  "corrigido": "cadastrou a senha nova do cartao de debito do cliente",
+  "radicais": [
+   "cadastr",
+   "senha",
+   "nova",
+   "cartao",
+   "debito",
+   "cliente"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 11,
+    "pontuacao": 24.0488,
+    "termos": [
+     "cadastrou",
+     "senha",
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 17.1737,
+    "termos": [
+     "cadastrou",
+     "senha",
+     "cartao"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 13.7863,
+    "termos": [
+     "cartao",
+     "debito",
+     "cliente"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 10.5314,
+    "termos": [
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 14,
+    "pontuacao": 10.5314,
+    "termos": [
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 89,
+    "pontuacao": 9.7959,
+    "termos": [
+     "cadastrou",
+     "cartao"
+    ]
+   },
+   {
+    "id": 45,
+    "pontuacao": 7.3778,
+    "termos": [
+     "senha"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.9112,
+    "termos": [
+     "cartao",
+     "cliente"
+    ]
+   },
+   {
+    "id": 42,
+    "pontuacao": 6.1397,
+    "termos": [
+     "cadastrou"
+    ]
+   },
+   {
+    "id": 92,
+    "pontuacao": 6.1397,
+    "termos": [
+     "cadastrou"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "conferiu e organizou os malotes físicos da agência",
+  "corrigido": "conferiu e organizou os malotes fisicos da loja",
+  "radicais": [
+   "confer",
+   "organiz",
+   "malote",
+   "fisico",
+   "loja"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 117,
+    "pontuacao": 15.212,
+    "termos": [
+     "organizou",
+     "loja"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 9.8286,
+    "termos": [
+     "malotes",
+     "loja"
+    ]
+   },
+   {
+    "id": 114,
+    "pontuacao": 9.0724,
+    "termos": [
+     "conferiu"
+    ]
+   },
+   {
+    "id": 115,
+    "pontuacao": 7.3778,
+    "termos": [
+     "malotes"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 116,
+    "pontuacao": 3.6889,
+    "termos": [
+     "malotes"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "malote",
+  "corrigido": "malote",
+  "radicais": [
+   "malote"
+  ],
+  "exata": null,
+  "por_nome": [
+   115
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 115,
+    "pontuacao": 7.3778,
+    "termos": [
+     "malote"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 3.6889,
+    "termos": [
+     "malote"
+    ]
+   },
+   {
+    "id": 116,
+    "pontuacao": 3.6889,
+    "termos": [
+     "malote"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Malotes",
+  "corrigido": "malotes",
+  "radicais": [
+   "malote"
+  ],
+  "exata": null,
+  "por_nome": [
+   115
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 115,
+    "pontuacao": 7.3778,
+    "termos": [
+     "malotes"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 3.6889,
+    "termos": [
+     "malotes"
+    ]
+   },
+   {
+    "id": 116,
+    "pontuacao": 3.6889,
+    "termos": [
+     "malotes"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "emitiu o recibo de pagamento de um boleto",
+  "corrigido": "emitiu o recibo de pagamento de um boleto",
+  "radicais": [
+   "emit",
+   "recibo",
+   "pag",
+   "boleto"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 101,
+    "pontuacao": 11.0088,
+    "termos": [
+     "pagamento",
+     "boleto"
+    ]
+   },
+   {
+    "id": 102,
+    "pontuacao": 11.0088,
+    "termos": [
+     "pagamento",
+     "boleto"
+    ]
+   },
+   {
+    "id": 29,
+    "pontuacao": 6.4738,
+    "termos": [
+     "boleto"
+    ]
+   },
+   {
+    "id": 93,
+    "pontuacao": 6.4738,
+    "termos": [
+     "boleto"
+    ]
+   },
+   {
+    "id": 138,
+    "pontuacao": 6.4738,
+    "termos": [
+     "boleto"
+    ]
+   },
+   {
+    "id": 2,
+    "pontuacao": 4.535,
+    "termos": [
+     "pagamento"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 4.535,
+    "termos": [
+     "pagamento"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 4.535,
+    "termos": [
+     "pagamento"
+    ]
+   },
+   {
+    "id": 39,
+    "pontuacao": 4.535,
+    "termos": [
+     "pagamento"
+    ]
+   },
+   {
+    "id": 92,
+    "pontuacao": 4.535,
+    "termos": [
+     "pagamento"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "abriu uma conta corrente para um cliente novo",
+  "corrigido": "abertura uma conta corrente para um cliente novo",
+  "radicais": [
+   "abertura",
+   "conta",
+   "corrente",
+   "cliente",
+   "novo"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 40,
+    "pontuacao": 14.6033,
+    "termos": [
+     "abertura",
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 19,
+    "pontuacao": 12.0047,
+    "termos": [
+     "conta",
+     "corrente",
+     "cliente"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 18,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 41,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 42,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 43,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 44,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 45,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   },
+   {
+    "id": 46,
+    "pontuacao": 8.7498,
+    "termos": [
+     "conta",
+     "corrente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "abertura de conta",
+  "corrigido": "abertura de conta",
+  "radicais": [
+   "abertura",
+   "conta"
+  ],
+  "exata": null,
+  "por_nome": [
+   40
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 40,
+    "pontuacao": 9.4228,
+    "termos": [
+     "abertura",
+     "conta"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente quer aumentar o limite",
+  "corrigido": "cliente quer aumentar o limite",
+  "radicais": [
+   "cliente",
+   "quer",
+   "aument",
+   "limite"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 48,
+    "pontuacao": 15.212,
+    "termos": [
+     "aumentar",
+     "limite"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 9.3946,
+    "termos": [
+     "cliente",
+     "limite"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 6.1397,
+    "termos": [
+     "limite"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 6.1397,
+    "termos": [
+     "limite"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "limite"
+    ]
+   },
+   {
+    "id": 139,
+    "pontuacao": 6.1397,
+    "termos": [
+     "limite"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente pagou a parcela do acordo",
+  "corrigido": "cliente pagou a parcela do acordo",
+  "radicais": [
+   "cliente",
+   "pag",
+   "parcela",
+   "acordo"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 2,
+    "pontuacao": 16.1893,
+    "termos": [
+     "pagou",
+     "parcela",
+     "acordo"
+    ]
+   },
+   {
+    "id": 95,
+    "pontuacao": 16.1893,
+    "termos": [
+     "pagou",
+     "parcela",
+     "acordo"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 9.7287,
+    "termos": [
+     "cliente",
+     "acordo"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagou",
+     "parcela"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagou",
+     "parcela"
+    ]
+   },
+   {
+    "id": 39,
+    "pontuacao": 9.7155,
+    "termos": [
+     "pagou",
+     "parcela"
+    ]
+   },
+   {
+    "id": 137,
+    "pontuacao": 7.7899,
+    "termos": [
+     "cliente",
+     "pagou"
+    ]
+   },
+   {
+    "id": 106,
+    "pontuacao": 7.1253,
+    "termos": [
+     "pagou",
+     "parcela"
+    ]
+   },
+   {
+    "id": 94,
+    "pontuacao": 6.4738,
+    "termos": [
+     "acordo"
+    ]
+   },
+   {
+    "id": 96,
+    "pontuacao": 6.4738,
+    "termos": [
+     "acordo"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "transferiu dinheiro entre contas correntes",
+  "corrigido": "transferiu dinheiro entre contas correntes",
+  "radicais": [
+   "transfer",
+   "dinheiro",
+   "entre",
+   "conta",
+   "corrente"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 18,
+    "pontuacao": 19.1291,
+    "termos": [
+     "transferiu",
+     "entre",
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 13.7484,
+    "termos": [
+     "entre",
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 10.0431,
+    "termos": [
+     "dinheiro",
+     "contas"
+    ]
+   },
+   {
+    "id": 104,
+    "pontuacao": 9.6646,
+    "termos": [
+     "transferiu",
+     "entre",
+     "contas"
+    ]
+   },
+   {
+    "id": 105,
+    "pontuacao": 9.6646,
+    "termos": [
+     "transferiu",
+     "entre",
+     "contas"
+    ]
+   },
+   {
+    "id": 19,
+    "pontuacao": 8.7498,
+    "termos": [
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 8.7498,
+    "termos": [
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 41,
+    "pontuacao": 8.7498,
+    "termos": [
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 42,
+    "pontuacao": 8.7498,
+    "termos": [
+     "contas",
+     "correntes"
+    ]
+   },
+   {
+    "id": 43,
+    "pontuacao": 8.7498,
+    "termos": [
+     "contas",
+     "correntes"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "consultou o limite do cartão de crédito",
+  "corrigido": "consultou o limite do cartao de credito",
+  "radicais": [
+   "consult",
+   "limite",
+   "cartao",
+   "credito"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 7,
+    "pontuacao": 21.5569,
+    "termos": [
+     "consultou",
+     "limite",
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 48,
+    "pontuacao": 12.4846,
+    "termos": [
+     "limite",
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 8,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 47,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 49,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 51,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cliente pedindo dinheiro para abrir um negócio",
+  "corrigido": "cliente pedindo dinheiro para abertura um negocio",
+  "radicais": [
+   "cliente",
+   "ped",
+   "dinheiro",
+   "abertura",
+   "negocio"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 27,
+    "pontuacao": 12.3273,
+    "termos": [
+     "dinheiro",
+     "abertura"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 7.4809,
+    "termos": [
+     "cliente",
+     "abertura"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.4738,
+    "termos": [
+     "dinheiro"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "fui almoçar no restaurante",
+  "corrigido": "fui almocar no restaurante",
+  "radicais": [
+   "fui",
+   "almoc",
+   "restaur"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 36,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almocar"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almocar"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "fazendo café na copa",
+  "corrigido": "fazendo cafe na copa",
+  "radicais": [
+   "cafe",
+   "copa"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "seguro de vida",
+  "corrigido": "seguro de vida",
+  "radicais": [
+   "seguro",
+   "vida"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 84,
+    "pontuacao": 14.9258,
+    "termos": [
+     "seguro",
+     "vida"
+    ]
+   },
+   {
+    "id": 110,
+    "pontuacao": 8.0507,
+    "termos": [
+     "vida"
+    ]
+   },
+   {
+    "id": 85,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   },
+   {
+    "id": 129,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "vendi seguro de vida",
+  "corrigido": "venda seguro de vida",
+  "radicais": [
+   "vendi",
+   "seguro",
+   "vida"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 84,
+    "pontuacao": 14.9258,
+    "termos": [
+     "seguro",
+     "vida"
+    ]
+   },
+   {
+    "id": 110,
+    "pontuacao": 8.0507,
+    "termos": [
+     "vida"
+    ]
+   },
+   {
+    "id": 85,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   },
+   {
+    "id": 129,
+    "pontuacao": 6.8751,
+    "termos": [
+     "seguro"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "funcionário indo abrir a loja no início do dia",
+  "corrigido": "funcionario indo abertura a loja no inicio do dia",
+  "radicais": [
+   "indo",
+   "abertura",
+   "loja"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 26,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "abrindo a agência",
+  "corrigido": "abertura a loja",
+  "radicais": [
+   "abertura",
+   "loja"
+  ],
+  "exata": null,
+  "por_nome": [
+   118
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 26,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "gerente fechou a agência no fim do expediente",
+  "corrigido": "gerente fechou a loja no fim do expediente",
+  "radicais": [
+   "fech",
+   "loja"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 26,
+    "pontuacao": 14.1904,
+    "termos": [
+     "fechou",
+     "loja"
+    ]
+   },
+   {
+    "id": 113,
+    "pontuacao": 8.0507,
+    "termos": [
+     "fechou"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "conta aberta ontem",
+  "corrigido": "conta abertura ontem",
+  "radicais": [
+   "conta",
+   "abertura"
+  ],
+  "exata": null,
+  "por_nome": [
+   40
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 40,
+    "pontuacao": 9.4228,
+    "termos": [
+     "conta",
+     "abertura"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 3.5693,
+    "termos": [
+     "conta"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Abertura do sistema no início da jornada",
+  "corrigido": "abertura do sistema no inicio da jornada",
+  "radicais": [
+   "abertura",
+   "sistema"
+  ],
+  "exata": null,
+  "por_nome": [
+   30
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 30,
+    "pontuacao": 13.9042,
+    "termos": [
+     "abertura",
+     "sistema"
+    ]
+   },
+   {
+    "id": 126,
+    "pontuacao": 8.0507,
+    "termos": [
+     "sistema"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 40,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Migração de conta entre agências",
+  "corrigido": "migracao de conta entre loja",
+  "radicais": [
+   "migr",
+   "conta",
+   "entre",
+   "loja"
+  ],
+  "exata": null,
+  "por_nome": [
+   17
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 17,
+    "pontuacao": 23.7799,
+    "termos": [
+     "migracao",
+     "conta",
+     "entre",
+     "loja"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 11.1383,
+    "termos": [
+     "entre",
+     "loja"
+    ]
+   },
+   {
+    "id": 18,
+    "pontuacao": 8.5679,
+    "termos": [
+     "conta",
+     "entre"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 117,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 6.1397,
+    "termos": [
+     "loja"
+    ]
+   },
+   {
+    "id": 2,
+    "pontuacao": 4.2839,
+    "termos": [
+     "conta",
+     "entre"
+    ]
+   },
+   {
+    "id": 20,
+    "pontuacao": 4.2839,
+    "termos": [
+     "conta",
+     "entre"
+    ]
+   },
+   {
+    "id": 23,
+    "pontuacao": 4.2839,
+    "termos": [
+     "conta",
+     "entre"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Hoje de manhã, logo depois de abrir a agência, a gerente cadastrou a senha do cartão de débito de um senhor que estava com pressa",
+  "corrigido": "hoje de manha logo depois de abertura a loja a gerente cadastrou a senha do cartao de debito de um senhor que estava com pressa",
+  "radicais": [
+   "logo",
+   "abertura",
+   "loja",
+   "cadastr",
+   "senha",
+   "cartao",
+   "debito",
+   "senhor",
+   "pressa"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 11,
+    "pontuacao": 24.0488,
+    "termos": [
+     "cadastrou",
+     "senha",
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 6,
+    "pontuacao": 17.1737,
+    "termos": [
+     "cadastrou",
+     "senha",
+     "cartao"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 11.9932,
+    "termos": [
+     "abertura",
+     "loja"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 10.5314,
+    "termos": [
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 10.5314,
+    "termos": [
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 14,
+    "pontuacao": 10.5314,
+    "termos": [
+     "cartao",
+     "debito"
+    ]
+   },
+   {
+    "id": 54,
+    "pontuacao": 9.7959,
+    "termos": [
+     "loja",
+     "cartao"
+    ]
+   },
+   {
+    "id": 89,
+    "pontuacao": 9.7959,
+    "termos": [
+     "cadastrou",
+     "cartao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "de da do para",
+  "corrigido": "de da do para",
+  "radicais": [],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "",
+  "corrigido": "",
+  "radicais": [],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "acompanhamneto de metas",
+  "corrigido": "acompanhamento de metas",
+  "radicais": [
+   "acompanhamneto",
+   "meta"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 1,
+    "pontuacao": 18.1447,
+    "termos": [
+     "acompanhamneto",
+     "metas"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "acompanhamento de mteas",
+  "corrigido": "acompanhamento de metas",
+  "radicais": [
+   "acompanh",
+   "mtea"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 1,
+    "pontuacao": 9.0724,
+    "termos": [
+     "acompanhamento"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "contagen de numerarios",
+  "corrigido": "contagem de numerarios",
+  "radicais": [
+   "contagen",
+   "numerario"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 27,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 28,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 97,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 112,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 113,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 114,
+    "pontuacao": 5.6032,
+    "termos": [
+     "numerarios"
+    ]
+   },
+   {
+    "id": 15,
+    "pontuacao": 3.6563,
+    "termos": [
+     "contagen"
+    ]
+   },
+   {
+    "id": 16,
+    "pontuacao": 3.6563,
+    "termos": [
+     "contagen"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "sauqe",
+  "corrigido": "saque",
+  "radicais": [
+   "sauqe"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "sque",
+  "corrigido": "sque",
+  "radicais": [
+   "sque"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "depozito",
+  "corrigido": "deposito",
+  "radicais": [
+   "depozito"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "cartao de credtio",
+  "corrigido": "cartao de credito",
+  "radicais": [
+   "cartao",
+   "credtio"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 6,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 8,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 11,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 12,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 14,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 3.6563,
+    "termos": [
+     "cartao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "portabilidae de salario",
+  "corrigido": "portabilidade de salario",
+  "radicais": [
+   "portabilidae",
+   "salario"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "emprestmo consignado",
+  "corrigido": "emprestimo consignado",
+  "radicais": [
+   "emprestmo",
+   "consign"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 20,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 21,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 22,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 60,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 61,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 62,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 63,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   },
+   {
+    "id": 64,
+    "pontuacao": 5.6032,
+    "termos": [
+     "consignado"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "treinamneto",
+  "corrigido": "treinamento",
+  "radicais": [
+   "treinamneto"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 120,
+    "pontuacao": 9.0724,
+    "termos": [
+     "treinamneto"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "cambio",
+  "corrigido": "cambio",
+  "radicais": [
+   "cambio"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "fui almocar",
+  "corrigido": "fui almocar",
+  "radicais": [
+   "fui",
+   "almoc"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 36,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almocar"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almocar"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "pixx",
+  "corrigido": "pixx",
+  "radicais": [
+   "pixx"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ },
+ {
+  "texto": "almoço",
+  "corrigido": "almoco",
+  "radicais": [
+   "almoco"
+  ],
+  "exata": null,
+  "por_nome": [
+   35,
+   36
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 36,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almoco"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almoco"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "Almoco",
+  "corrigido": "almoco",
+  "radicais": [
+   "almoco"
+  ],
+  "exata": null,
+  "por_nome": [
+   35,
+   36
+  ],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 36,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almoco"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 8.0507,
+    "termos": [
+     "almoco"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "funcionario falando sobre cartão de crédito",
+  "corrigido": "funcionario falando sobre cartao de credito",
+  "radicais": [
+   "cartao",
+   "credito"
+  ],
+  "exata": null,
+  "por_nome": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54
+  ],
+  "nome_de_produto": true,
+  "candidatos": [
+   {
+    "id": 6,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 7,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 8,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 9,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 47,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 48,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 49,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 50,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   },
+   {
+    "id": 51,
+    "pontuacao": 6.3449,
+    "termos": [
+     "cartao",
+     "credito"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "gerente conversou com cliente sobre saque",
+  "corrigido": "gerente conversou com cliente sobre saque",
+  "radicais": [
+   "cliente",
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 34,
+    "pontuacao": 9.3946,
+    "termos": [
+     "cliente",
+     "saque"
+    ]
+   },
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 3,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 5,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 10,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   },
+   {
+    "id": 13,
+    "pontuacao": 3.2549,
+    "termos": [
+     "cliente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "disse que não quer o saque",
+  "corrigido": "disse que nao quer o saque",
+  "radicais": [
+   "nao",
+   "quer",
+   "saque"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 35,
+    "pontuacao": 6.8751,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 36,
+    "pontuacao": 6.8751,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 31,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 32,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 33,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 34,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 99,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 100,
+    "pontuacao": 6.1397,
+    "termos": [
+     "saque"
+    ]
+   },
+   {
+    "id": 125,
+    "pontuacao": 3.4376,
+    "termos": [
+     "nao"
+    ]
+   },
+   {
+    "id": 126,
+    "pontuacao": 3.4376,
+    "termos": [
+     "nao"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "segudo de vida",
+  "corrigido": "seguro de vida",
+  "radicais": [
+   "segudo",
+   "vida"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 84,
+    "pontuacao": 8.0507,
+    "termos": [
+     "vida"
+    ]
+   },
+   {
+    "id": 110,
+    "pontuacao": 8.0507,
+    "termos": [
+     "vida"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "abertura de cnota corrente",
+  "corrigido": "abertura de conta corrente",
+  "radicais": [
+   "abertura",
+   "cnota",
+   "corrente"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": [
+   {
+    "id": 40,
+    "pontuacao": 11.034,
+    "termos": [
+     "abertura",
+     "corrente"
+    ]
+   },
+   {
+    "id": 26,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 27,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 30,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 82,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 86,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 118,
+    "pontuacao": 5.8535,
+    "termos": [
+     "abertura"
+    ]
+   },
+   {
+    "id": 17,
+    "pontuacao": 5.1805,
+    "termos": [
+     "corrente"
+    ]
+   },
+   {
+    "id": 18,
+    "pontuacao": 5.1805,
+    "termos": [
+     "corrente"
+    ]
+   },
+   {
+    "id": 19,
+    "pontuacao": 5.1805,
+    "termos": [
+     "corrente"
+    ]
+   }
+  ]
+ },
+ {
+  "texto": "malottes",
+  "corrigido": "malottes",
+  "radicais": [
+   "malotte"
+  ],
+  "exata": null,
+  "por_nome": [],
+  "nome_de_produto": false,
+  "candidatos": []
+ }
+]

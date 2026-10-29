@@ -1,0 +1,66 @@
+# Legenda FICTÍCIA da folha de coleta (versão de demonstração).
+#
+# No projeto real, esta legenda é extraída do molde oficial da folha de
+# coleta do cliente. Aqui os códigos e descrições foram substituídos por
+# uma taxonomia bancária genérica, mantendo apenas a ESTRUTURA usada pelo
+# código: classificação de 1 a 20 sem o código 7 (o 7 é pulado para não
+# ser confundido com o 1 na leitura de folha manuscrita).
+
+fonte: "Legenda fictícia para demonstração"
+classificacao:
+  1: "C: Venda"
+  2: "C: Formalização"
+  3: "C: Pós Venda"
+  4: "C: Gestão da Carteira de Clientes"
+  5: "C: Visita"
+  6: "C: Suporte Interno"
+  8: "C: Treinamento"
+  9: "O: Transferências entre contas, pagamento de fatura e/ou parcela"
+  10: "O: Depósito"
+  11: "O: Saque"
+  12: "O: Recebimento de Título"
+  13: "O: Pendência regulatória"
+  14: "O: Numerário"
+  15: "O: Manutenção/Gestão de Loja ou Gestão de Fila"
+  16: "O: Tratamento de Cheques"
+  17: "O: Gestão de Tangíveis (malotes/estoque/cartão)"
+  18: "TNP: Tempo Não Produtivo"
+  19: "TNP: Gestão de Equipe"
+  20: "TNP: TNP do Consultor"
+
+local_da_atividade:
+  1: "ATM"
+  2: "Caixa"
+  3: "Mesa do Gerente"
+  4: "Plataforma"
+  5: "Pronto Atendimento/Triagem"
+  6: "Retaguarda da Loja/Tesouraria"
+  8: "Visita"
+
+forma_de_atendimento:
+  1: "E-mail"
+  2: "Ligação de Voz"
+  3: "Não foi um atendimento ao cliente"
+  4: "Outro"
+  5: "Presencial"
+  6: "Chat"
+
+clientes:
+  1: "Cliente PF"
+  2: "Cliente PJ"
+  3: "Não cliente do Banco"
+  4: "Não identificado"
+  5: "Não atendimento ao cliente"
+
+segmento:
+  "V": "Varejo"
+  "AR": "Alta Renda"
+  "PV": "Private"
+  "MEI": "MEI"
+  "PE": "Pequena Empresa"
+  "APF": "Agro PF"
+  "APJ": "Agro PJ"
+  "SNI": "Segmento não Identificado"
+  "Não": "Não atendimento ao cliente"
+  "NCB": "Não cliente do Banco"
+

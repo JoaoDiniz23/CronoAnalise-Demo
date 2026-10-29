@@ -1,0 +1,25 @@
+# Dependencias de PRODUCAO, com versao fixa (auditoria de seguranca,
+# 23/09/2026): sem versao, cada deploy instalava o que fosse mais novo no
+# dia -- uma versao com defeito entraria em producao sem ninguem ver.
+# Para atualizar: `pip install -U <pacote>` no venv, rodar os testes e
+# trocar o numero aqui. Ferramentas de teste ficam em requirements-dev.txt.
+
+# Claude (Anthropic), provedor principal com crédito pré-pago (22/09/2026)
+anthropic==1.8.0
+python-dotenv==1.2.3
+pydantic==2.13.5
+fastapi==0.141.1
+starlette==1.7.0
+uvicorn==0.53.0
+httpx==0.28.1
+pyyaml==6.0.3
+
+# POST /login (backend/main.py) le o formulario via Form -- o FastAPI
+# exige python-multipart para decodificar dados de formulario. Sem isto
+# instalado, a rota falha em tempo de execucao, nao no import.
+python-multipart==0.0.32
+
+# autenticacao minima (backend/acesso.py): assina o cookie de sessao.
+# Nao usa Starlette SessionMiddleware (guarda um payload proprio: nome do
+# consultor + validade), so a primitiva de assinatura.
+itsdangerous==2.2.0

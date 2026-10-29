@@ -1,0 +1,70 @@
+# Segredos - NUNCA versionar
+.env
+
+# `env.txt` apareceu na raiz do projeto (variante solta de `.env`, mesmo
+# conteudo: chave de API). Nunca esteve rastreado nem commitado (checado
+# em 20/09/2026 com `git ls-files`/`git log --all -- env.txt`), mas ficava
+# VISIVEL ao `git status` -- um `git add -A` teria versionado a chave.
+/env.txt
+
+# `env` (sem ponto, sem extensao) -- mesma variante, terceiro nome. Criado
+# nesta maquina em 21/09/2026 porque o Explorer do Windows nao cria arquivo
+# comecando com ponto. Continha a chave de API e NAO era coberto por
+# nenhum padrao: `.env` nao casa `env`, e `/env.txt` so casa a extensao.
+# Com o repositorio publico, um `git add -A` teria publicado a chave.
+# Mantido mesmo depois de o arquivo ter sido renomeado para `.env`, porque
+# o proximo dev vai repetir o mesmo caminho pelo mesmo motivo.
+/env
+
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Node (o frontend nao tem dependencias hoje, mas nao queremos versionar
+# node_modules se alguma ferramenta for adicionada depois)
+node_modules/
+
+# Dados sensíveis do produto anterior (folhas reais com nome/matrícula
+# de consultor/funcionário, digitalizações e recortes derivados delas).
+# Os diretórios abaixo existiam no repositório e continham esse tipo de
+# material; os caminhos antigos (/calibracao/folhas_reais/, /calibracao/saida/)
+# nunca existiram de fato e não protegiam nada.
+/imagens_teste/
+/calibracao_debug/
+
+# Folhas REAIS de campo e as saídas da calibração/inspeção.
+#
+# A regra primária do projeto é que folha real fica FORA da árvore do
+# repositório (as ferramentas recebem o caminho por argumento, ver
+# `scripts/inspecionar_folha.py`). Estes padrões são a SEGUNDA barreira,
+# para o caso de alguém, com pressa, trabalhar dentro do projeto.
+#
+# Caminhos ancorados na raiz de propósito: um padrão solto como
+# `calibracao/` esconderia qualquer pasta de mesmo nome em qualquer nível.
+# Verificados com `git check-ignore -v` em 20/09/2026 -- não repetir o erro
+# de declarar caminho que nunca existiu e não protege nada.
+/folhas_reais/
+/calibracao/
+
+# Pasta de folhas reais criada na raiz do projeto em 20/09/2026.
+# A regra do projeto continua sendo manter folha real FORA da arvore do
+# repositorio; este padrao existe porque a pasta foi criada aqui dentro e
+# ficou VISIVEL ao `git status` -- um `git add -A` teria versionado um PDF
+# com nome de funcionario do cliente.
+/fotos para testes/
+
+# Mesma situacao, nome diferente: pasta com PDFs reais escaneados
+# (CamScanner) encontrada na raiz do projeto em 20/09/2026, nao coberta
+# pelo padrao acima. Nunca esteve rastreada, mas ficava VISIVEL ao
+# `git status`.
+/PDF_Fotos_Teste/
+
+# Folhas reais escaneadas (22/09) — nunca versionar
+fotos escaneadas/
+
+# Saidas de sessoes do Claude Code (podem conter trechos de folha real).
+/Claude outputs/

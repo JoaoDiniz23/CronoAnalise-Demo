@@ -1,0 +1,10 @@
+{
+  "name": "cronoanalise-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frontend PWA do apoio a cronoanalise. Sem dependencias: testes rodam no test runner nativo do Node.",
+  "scripts": {
+    "test": "node --test"
+  }
+}

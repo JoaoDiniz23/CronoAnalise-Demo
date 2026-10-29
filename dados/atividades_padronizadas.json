@@ -1,0 +1,1392 @@
+[
+ {
+  "id": 1,
+  "atividade": "Acompanhamento de metas",
+  "produto": "Acompanhamento de Metas",
+  "subgrupo": "Suporte interno + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 2,
+  "atividade": "Pagamento de parcela",
+  "produto": "Acordo (Dívida)",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 3,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Acordo (Dívida)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 4,
+  "atividade": "Oferta/Contratação",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 5,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 6,
+  "atividade": "Alteração/cadastro de Senha",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 7,
+  "atividade": "Consulta do limite do cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 8,
+  "atividade": "Emissão de 2ª via de cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 9,
+  "atividade": "Oferta/Contratação",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 10,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 11,
+  "atividade": "Alteração/cadastro de Senha",
+  "produto": "Cartão de Débito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 12,
+  "atividade": "Emissão de 2ª via de cartão",
+  "produto": "Cartão de Débito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 13,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Cartão de Débito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 14,
+  "atividade": "Oferta/Contratação",
+  "produto": "Cartão de Débito",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 15,
+  "atividade": "Oferta/Contratação",
+  "produto": "Cheque Especial (Limite da conta)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 16,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Cheque Especial (Limite da conta)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 17,
+  "atividade": "Migração de conta entre agências",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 18,
+  "atividade": "Transferência entre contas",
+  "produto": "Conta Corrente",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 19,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 20,
+  "atividade": "Pagamento de parcela",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 21,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 22,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Crédito Consignado Unificado",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 23,
+  "atividade": "Pagamento de parcela",
+  "produto": "Crédito Pessoal (Emprestimo)",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 24,
+  "atividade": "Oferta/Contratação",
+  "produto": "Crédito Pessoal (Emprestimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 25,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Crédito Pessoal (Emprestimo)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 26,
+  "atividade": "Abertura e fechamento da loja",
+  "produto": "Gestão Patrimonial",
+  "subgrupo": "Manutenção/Gestão da loja ou gestão de fila + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 27,
+  "atividade": "Abertura de Caixa",
+  "produto": "Numerários (dinheiro)",
+  "subgrupo": "Numerário + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 28,
+  "atividade": "Contagem de numerários",
+  "produto": "Numerários (dinheiro)",
+  "subgrupo": "Numerário + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 29,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Recebimento de Títulos (Boleto)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica, Não identificado, Não cliente do Banco",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 30,
+  "atividade": "Abertura do sistema no início da jornada",
+  "produto": "Rotinas da Loja",
+  "subgrupo": "Gestão da carteira de cliente + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 31,
+  "atividade": "Saque",
+  "produto": "Saque",
+  "subgrupo": "Saque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica, Não identificado",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 32,
+  "atividade": "Saque com Cartão",
+  "produto": "Saque",
+  "subgrupo": "Saque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica, Não identificado",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 33,
+  "atividade": "Saque no ATM",
+  "produto": "Saque",
+  "subgrupo": "Saque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica, Não identificado",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 34,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Saque",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica, Não identificado",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 35,
+  "atividade": "Tempo não produtivo",
+  "produto": "Tempo não Produtivo",
+  "subgrupo": "Tempo não produtivo + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 36,
+  "atividade": "Almoço",
+  "produto": "Tempo não Produtivo",
+  "subgrupo": "TNP do consultor + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 37,
+  "atividade": "Oferta/Contratação",
+  "produto": "Confirming",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 38,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Confirming",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 39,
+  "atividade": "Pagamento de parcela",
+  "produto": "Confirming",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 40,
+  "atividade": "Abertura de conta",
+  "produto": "Conta Corrente",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 41,
+  "atividade": "Encerramento de conta",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 42,
+  "atividade": "Atualização cadastral",
+  "produto": "Conta Corrente",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 43,
+  "atividade": "Alteração de pacote de tarifas",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 44,
+  "atividade": "Emissão de extrato",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 45,
+  "atividade": "Desbloqueio de senha",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 46,
+  "atividade": "Contestação de tarifa",
+  "produto": "Conta Corrente",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 47,
+  "atividade": "Venda de cartão de crédito",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 48,
+  "atividade": "Aumento de limite do cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 49,
+  "atividade": "Bloqueio de cartão por perda ou roubo",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 50,
+  "atividade": "Segunda via de cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 51,
+  "atividade": "Contestação de compra no cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 52,
+  "atividade": "Parcelamento de fatura",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 53,
+  "atividade": "Cancelamento de cartão",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 54,
+  "atividade": "Entrega de cartão na agência",
+  "produto": "Cartão de Crédito",
+  "subgrupo": "Gestão de tangíveis (malote/estoque/cartão + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 55,
+  "atividade": "Simulação de crédito pessoal",
+  "produto": "Crédito Pessoal (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 56,
+  "atividade": "Contratação de crédito pessoal",
+  "produto": "Crédito Pessoal (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 57,
+  "atividade": "Assinatura de contrato de crédito pessoal",
+  "produto": "Crédito Pessoal (Empréstimo)",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 58,
+  "atividade": "Portabilidade de crédito pessoal",
+  "produto": "Crédito Pessoal (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 59,
+  "atividade": "Quitação antecipada de crédito pessoal",
+  "produto": "Crédito Pessoal (Empréstimo)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 60,
+  "atividade": "Simulação de crédito consignado",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 61,
+  "atividade": "Contratação de crédito consignado",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 62,
+  "atividade": "Assinatura de contrato de crédito consignado",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 63,
+  "atividade": "Portabilidade de crédito consignado",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 64,
+  "atividade": "Quitação antecipada de crédito consignado",
+  "produto": "Crédito Consignado",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 65,
+  "atividade": "Simulação de financiamento de veículo",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 66,
+  "atividade": "Contratação de financiamento de veículo",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 67,
+  "atividade": "Assinatura de contrato de financiamento de veículo",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 68,
+  "atividade": "Portabilidade de financiamento de veículo",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 69,
+  "atividade": "Quitação antecipada de financiamento de veículo",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 70,
+  "atividade": "Simulação de crédito imobiliário",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 71,
+  "atividade": "Contratação de crédito imobiliário",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 72,
+  "atividade": "Assinatura de contrato de crédito imobiliário",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 73,
+  "atividade": "Portabilidade de crédito imobiliário",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 74,
+  "atividade": "Quitação antecipada de crédito imobiliário",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 75,
+  "atividade": "Simulação de capital de giro",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 76,
+  "atividade": "Contratação de capital de giro",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 77,
+  "atividade": "Assinatura de contrato de capital de giro",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 78,
+  "atividade": "Portabilidade de capital de giro",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 79,
+  "atividade": "Quitação antecipada de capital de giro",
+  "produto": "Capital de Giro (Empréstimo)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 80,
+  "atividade": "Aplicação em CDB",
+  "produto": "Investimentos",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 81,
+  "atividade": "Resgate de aplicação",
+  "produto": "Investimentos",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 82,
+  "atividade": "Abertura de previdência privada",
+  "produto": "Previdência",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 83,
+  "atividade": "Portabilidade de previdência",
+  "produto": "Previdência",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 84,
+  "atividade": "Venda de seguro de vida",
+  "produto": "Seguros",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 85,
+  "atividade": "Venda de seguro residencial",
+  "produto": "Seguros",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 86,
+  "atividade": "Abertura de sinistro",
+  "produto": "Seguros",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 87,
+  "atividade": "Venda de título de capitalização",
+  "produto": "Capitalização",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 88,
+  "atividade": "Contratação de consórcio",
+  "produto": "Consórcio",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 89,
+  "atividade": "Cadastro de maquininha de cartão",
+  "produto": "Maquininha",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 90,
+  "atividade": "Troca de maquininha com defeito",
+  "produto": "Maquininha",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 91,
+  "atividade": "Antecipação de recebíveis",
+  "produto": "Antecipação de Recebíveis",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 92,
+  "atividade": "Cadastro de folha de pagamento",
+  "produto": "Folha de Pagamento",
+  "subgrupo": "Formalização + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 93,
+  "atividade": "Emissão de boletos de cobrança",
+  "produto": "Cobrança (Boleto)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 94,
+  "atividade": "Renegociação de dívida",
+  "produto": "Acordo (Dívida)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 95,
+  "atividade": "Pagamento de parcela de acordo",
+  "produto": "Acordo (Dívida)",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 96,
+  "atividade": "Cancelamento de renegociação",
+  "produto": "Acordo (Dívida)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 97,
+  "atividade": "Depósito em dinheiro",
+  "produto": "Numerário (Dinheiro)",
+  "subgrupo": "Depósito + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 98,
+  "atividade": "Depósito em cheque",
+  "produto": "Cheque",
+  "subgrupo": "Depósito + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 99,
+  "atividade": "Saque no caixa",
+  "produto": "Numerário (Dinheiro)",
+  "subgrupo": "Saque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 100,
+  "atividade": "Saque acima do limite com provisionamento",
+  "produto": "Numerário (Dinheiro)",
+  "subgrupo": "Saque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 101,
+  "atividade": "Pagamento de boleto no caixa",
+  "produto": "Recebimento de Títulos (Boleto)",
+  "subgrupo": "Recebimento de títulos + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 102,
+  "atividade": "Pagamento de conta de consumo",
+  "produto": "Recebimento de Títulos (Boleto)",
+  "subgrupo": "Recebimento de títulos + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 103,
+  "atividade": "Pagamento de tributos",
+  "produto": "Recebimento de Títulos (Tributos)",
+  "subgrupo": "Recebimento de títulos + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 104,
+  "atividade": "Transferência via TED",
+  "produto": "Transferências",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 105,
+  "atividade": "Transferência via Pix com apoio do funcionário",
+  "produto": "Pix",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 106,
+  "atividade": "Pagamento de fatura do cartão no caixa",
+  "produto": "Cartão de Crédito (Fatura)",
+  "subgrupo": "Transferências entre contas, pagamento de fatura e/ou parcela + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 107,
+  "atividade": "Devolução de cheque",
+  "produto": "Cheque",
+  "subgrupo": "Tratamento de cheque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 108,
+  "atividade": "Sustação de cheque",
+  "produto": "Cheque",
+  "subgrupo": "Tratamento de cheque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 109,
+  "atividade": "Emissão de talão de cheques",
+  "produto": "Cheque",
+  "subgrupo": "Tratamento de cheque + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 110,
+  "atividade": "Comprovação de vida de beneficiário",
+  "produto": "Benefícios do INSS",
+  "subgrupo": "Pendência regulatória + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 111,
+  "atividade": "Atualização de documentação exigida por norma",
+  "produto": "Cadastro",
+  "subgrupo": "Pendência regulatória + Operacional",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, MEI, Pequena Empresa, Agro PF, Agro PJ",
+  "atendimento": "Presencial",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 112,
+  "atividade": "Abastecimento de caixa eletrônico",
+  "produto": "Numerário (Interno)",
+  "subgrupo": "Numerário + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 113,
+  "atividade": "Fechamento de caixa",
+  "produto": "Numerário (Interno)",
+  "subgrupo": "Numerário + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 114,
+  "atividade": "Conferência de cofre",
+  "produto": "Numerário (Interno)",
+  "subgrupo": "Numerário + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 115,
+  "atividade": "Recebimento de malote",
+  "produto": "Malote",
+  "subgrupo": "Gestão de tangíveis (malote/estoque/cartão + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 116,
+  "atividade": "Controle de estoque de cartões",
+  "produto": "Estoque",
+  "subgrupo": "Gestão de tangíveis (malote/estoque/cartão + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 117,
+  "atividade": "Organização da fila de atendimento",
+  "produto": "Gestão da Agência",
+  "subgrupo": "Manutenção/Gestão da loja ou gestão de fila + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 118,
+  "atividade": "Abertura da agência",
+  "produto": "Gestão da Agência",
+  "subgrupo": "Manutenção/Gestão da loja ou gestão de fila + Operacional",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Operacional"
+ },
+ {
+  "id": 119,
+  "atividade": "Reunião comercial da equipe",
+  "produto": "Reuniões",
+  "subgrupo": "Suporte interno + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 120,
+  "atividade": "Treinamento obrigatório online",
+  "produto": "Treinamentos",
+  "subgrupo": "Treinamento + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 121,
+  "atividade": "Ligação para carteira de clientes",
+  "produto": "Carteira",
+  "subgrupo": "Gestão da carteira de cliente + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 122,
+  "atividade": "Visita a cliente empresa",
+  "produto": "Visitas",
+  "subgrupo": "Visita + Comercial",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 123,
+  "atividade": "Feedback individual com colaborador",
+  "produto": "Gestão de Pessoas",
+  "subgrupo": "Gestão de equipe + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 124,
+  "atividade": "Escala de equipe",
+  "produto": "Gestão de Pessoas",
+  "subgrupo": "Gestão de equipe + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 125,
+  "atividade": "Intervalo de almoço",
+  "produto": "Pausas",
+  "subgrupo": "Tempo não produtivo + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 126,
+  "atividade": "Sistema fora do ar",
+  "produto": "Indisponibilidade",
+  "subgrupo": "Tempo não produtivo + TNP",
+  "clientes": "Não foi um atendimento ao cliente",
+  "segmento": "Não atendimento ao cliente",
+  "atendimento": "Não foi um atendimento ao cliente",
+  "classificacao": "Tempo não Produtivo"
+ },
+ {
+  "id": 127,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Investimentos",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 128,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Previdência",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 129,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Seguros",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 130,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Capitalização",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 131,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Consórcio",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 132,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Maquininha",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 133,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Pix",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 134,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Financiamento de Veículo",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 135,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Crédito Imobiliário (Financiamento)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 136,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Antecipação de Recebíveis",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 137,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Folha de Pagamento",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 138,
+  "atividade": "Dúvida/Ajuda e Suporte (cliente)",
+  "produto": "Cobrança (Boleto)",
+  "subgrupo": "Pós venda + Comercial",
+  "clientes": "Pessoa Juridica, Pessoa Fisica",
+  "segmento": "Varejo, Alta Renda, Private, Agro PF, MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ },
+ {
+  "id": 139,
+  "atividade": "Oferta/Contratação",
+  "produto": "Cheque Empresa (Limite da conta PJ)",
+  "subgrupo": "Venda + Comercial",
+  "clientes": "Pessoa Juridica",
+  "segmento": "MEI, Pequena Empresa, Agro PJ",
+  "atendimento": "E-mail, Ligação de Voz, Outros, Presencial, Chat",
+  "classificacao": "Comercial"
+ }
+]
