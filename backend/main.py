@@ -77,8 +77,23 @@ app = FastAPI(
 ROTAS_PUBLICAS = {"/health", "/login", "/sw.js"}
 
 
+def _acesso_aberto() -> bool:
+    """`ACESSO_ABERTO=1` dispensa o login (demo pública, sem dados reais).
+    Só faz sentido SEM `ANTHROPIC_API_KEY`: com a chave, qualquer visitante
+    consumiria o crédito (as cotas de LLM continuam valendo, mas todos
+    contam como um único "Visitante")."""
+    return os.environ.get("ACESSO_ABERTO", "").strip() == "1"
+
+
 @app.middleware("http")
 async def exigir_login(request: Request, call_next):
+    if _acesso_aberto():
+        if request.url.path == "/login":
+            return RedirectResponse(url="/")
+        request.state.consultor = "Visitante"
+        request.state.sessao_id = "visitante"
+        return await call_next(request)
+
     if request.url.path in ROTAS_PUBLICAS:
         return await call_next(request)
 

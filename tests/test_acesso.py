@@ -135,6 +135,35 @@ def test_frontend_com_cookie_nao_redireciona(cliente):
     assert resp.status_code == 200
 
 
+# --- Modo aberto (ACESSO_ABERTO=1): demo pública sem login ---------------
+
+
+def test_acesso_aberto_libera_frontend_sem_cookie(monkeypatch):
+    monkeypatch.setenv("ACESSO_ABERTO", "1")
+    resp = TestClient(main.app).get("/index.html", follow_redirects=False)
+    assert resp.status_code == 200
+
+
+def test_acesso_aberto_libera_api_sem_cookie(monkeypatch):
+    monkeypatch.setenv("ACESSO_ABERTO", "1")
+    resp = TestClient(main.app).get("/api/atividades")
+    assert resp.status_code == 200
+
+
+def test_acesso_aberto_manda_login_para_o_app(monkeypatch):
+    monkeypatch.setenv("ACESSO_ABERTO", "1")
+    resp = TestClient(main.app).get("/login", follow_redirects=False)
+    assert resp.status_code in (302, 307)
+    assert resp.headers["location"] == "/"
+
+
+@pytest.mark.parametrize("valor", ["", "0", "true", "sim"])
+def test_acesso_aberto_so_liga_com_1(monkeypatch, valor):
+    monkeypatch.setenv("ACESSO_ABERTO", valor)
+    resp = TestClient(main.app).get("/index.html", follow_redirects=False)
+    assert resp.headers["location"] == "/login"
+
+
 # ==========================================================================
 # Regressão: leitura de limite por variável de ambiente (`_limites_do_ambiente`)
 # ==========================================================================
