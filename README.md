@@ -1,5 +1,9 @@
 # Cronoanálise em campo: chatbot de atividades + cronômetro (versão de demonstração)
 
+**🔗 Teste a demo: [cronoanalise-demo.onrender.com](https://cronoanalise-demo.onrender.com)**
+(abre direto, sem login; o primeiro acesso pode levar cerca de 1 minuto para carregar.
+Na demo, o chat usa só a busca por palavras, sem IA.)
+
 > **Esta é uma versão pública e anonimizada** de um app que desenvolvi para um
 > projeto de consultoria (cronoanálise em agências de um grande banco). O código é
 > o mesmo do app em produção. **Os dados do cliente foram retirados**, como explico
